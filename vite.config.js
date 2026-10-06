@@ -3,8 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    // Vercel serves from the domain root; GitHub Pages serves from /<repo-name>/
-    base: process.env.VERCEL ? '/' : '/Portfolio/',
+    base: '/',
     plugins: [react()],
     build: {
         rollupOptions: {
