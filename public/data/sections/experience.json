@@ -1,0 +1,74 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 9},
+                    "dateEnd": {"year": 2026, "month": 2},
+                    "locales": {
+                        "en": {
+                            "title": "{{Java Full Stack}} Trainee",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "Pumo Technovation",
+                            "text": "Trained as a [[Java Full Stack]] developer, working across the frontend and backend:",
+                            "list": [
+                                "[[Frontend:]] HTML5, CSS3, Bootstrap, JavaScript, React",
+                                "[[Backend:]] Java, Spring Boot, MySQL"
+                            ],
+                            "tags": [
+                                "HTML5", "CSS3", "Bootstrap", "Javascript", "React", "Java", "Spring Boot", "Mysql"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2026, "month": 7},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Junior Full Stack}} Developer",
+                            "province": "Vanagaram, Chennai",
+                            "country": "India",
+                            "institution": "RSPM Infotech Private Limited",
+                            "text": "Working as a [[Junior Full Stack Developer]], building across the frontend and backend:",
+                            "list": [
+                                "[[Frontend:]] HTML5, CSS3, Tailwind CSS, JavaScript, TypeScript, React",
+                                "[[Backend:]] Node.js, Express.js, MSSQL"
+                            ],
+                            "tags": [
+                                "HTML5", "CSS3", "Tailwind", "Javascript", "Typescript", "React", "Node.js", "Express.js", "Mssql"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
